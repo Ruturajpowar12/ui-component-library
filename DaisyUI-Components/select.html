@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <select class="select bg-blue-50">
+      <option>MERN</option>
+      <option>Java</option>
+      <option>Python</option>
+    </select>
+    <br /><br />
+
+    <select class="select bg-red-50 select-sm">
+      <option>Small Select</option>
+    </select>
+    <select class="select bg-red-50 select">
+      <option>Medium Select</option>
+    </select>
+    <select class="select bg-red-50 select-lg">
+      <option>Large Select</option>
+    </select>
+
+    <br /><br />
+
+    <select class="select select-success">
+      <option>Success Select</option>
+    </select>
+    <select class="select select-warning">
+      <option>Warning Select</option>
+    </select>
+    <select class="select select-error">
+      <option>Error Select</option>
+    </select>
+
+    <br /><br />
+
+    <div class="card bg-base-100 w-100 shadow-sm">
+      <div class="card-body">
+        <p class="card-title">Student Registration</p>
+        <input
+          type="text"
+          placeholder="Enter Name"
+          class="input input-boraded"
+        />
+        <input
+          type="email"
+          placeholder="Enter Email"
+          class="input input-boraded"
+        />
+        <select name="Course" class="select bg-blue-50">
+          <option>Course</option>
+          <option>MERN</option>
+          <option>Java</option>
+          <option>Python</option>
+        </select>
+
+        <div class="card-action">
+          <button class="btn btn-primary">Register</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
