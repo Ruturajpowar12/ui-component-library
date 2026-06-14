@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- Task 1 -->
+    <div class="navbar bg-base-100 shadow-lg">
+      <div class="flex-1">
+        <h1>My Portfolio</h1>
+      </div>
+      <div class="flex-none">
+        <button class="btn btn-info btn-soft">Login</button>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="navbar bg-base-100 shadow-lg">
+      <div class="flex-1">
+        <a class="btn btn-ghost text-xl"> Amazon </a>
+      </div>
+      <div class="flex-none gap-2">
+        <a class="btn btn-ghost"> Home </a>
+
+        <a class="btn btn-ghost"> Products </a>
+
+        <a class="btn btn-ghost"> Contact </a>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="navbar bg-base-100 shadow-sm">
+      <div class="flex-1">
+        <a class="btn btn-ghost text-xl"> Shop </a>
+      </div>
+
+      <div class="flex-none gap-2">
+        <input type="text" placeholder="Search" class="input input-bordered" />
+
+        <button class="btn btn-primary">Search</button>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="navbar bg-base-100 shadow-lg my-10 px-4">
+      <!-- Left Side (Logo/Brand) -->
+      <div class="navbar-start">
+        <a href="#" class="text-xl font-bold">Valentina Cafe</a>
+      </div>
+
+      <!-- Center (Navigation Links) -->
+      <div class="navbar-center hidden lg:flex gap-10">
+        <a href="#" class="btn btn-ghost">Home</a>
+        <a href="#" class="btn btn-ghost">Menu</a>
+        <a href="#" class="btn btn-ghost">Orders</a>
+        <a href="#" class="btn btn-ghost">Contact</a>
+      </div>
+
+      <!-- Right Side (Login Button) -->
+      <div class="navbar-end">
+        <button class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </body>
+</html>
