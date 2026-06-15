@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="p-10">
+    <button onclick="modal1.showModal()" class="btn">Open Info</button>
+    <dialog id="modal1" class="modal">
+      <div class="modal-box">
+        <h1 class="font-bold">Student Details</h1>
+        <h3>Ruturaj</h3>
+        <div class="modal-action">
+          <form method="dialog">
+            <button class="btn">Close</button>
+          </form>
+        </div>
+      </div>
+    </dialog>
+
+    <br /><br />
+
+    <button class="btn btn-primary btn-soft" onclick="modal2.showModal()">
+      Delete
+    </button>
+
+    <dialog id="modal2" class="modal">
+      <div class="modal-box">
+        <h2 class="font-bold">Delete Item</h2>
+        <p>Are you sure?</p>
+        <div class="modal-action">
+          <form method="dialog" class="flex gap-80">
+            <button class="btn btn-error">Delete</button>
+            <button class="btn btn-warning">Cancel</button>
+          </form>
+        </div>
+      </div>
+    </dialog>
+
+    <br /><br />
+    <button class="btn btn-primary btn-soft" onclick="modal3.showModal()">
+      Add
+    </button>
+
+    <dialog id="modal3" class="modal">
+      <div class="modal-box space-y-3">
+        <h2 class="font-bold text-xl">Add Product</h2>
+        <input
+          type="text"
+          class="input input-bordered input-info"
+          placeholder="Enter Product Name"
+        />
+        <input
+          type="text"
+          class="input input-bordered input-info"
+          placeholder="Enter Price"
+        />
+        <div class="modal-action">
+          <button class="btn btn-secondary">Save</button>
+
+          <form method="dialog">
+            <button class="btn btn-warning">Close</button>
+          </form>
+        </div>
+      </div>
+    </dialog>
+  </body>
+</html>
