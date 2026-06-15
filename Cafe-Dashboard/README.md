@@ -1,16 +1,36 @@
-# React + Vite
+# Cafe Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite dashboard project styled with Tailwind CSS and DaisyUI.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Vite-powered React application
+- Tailwind CSS styling
+- DaisyUI component library support
+- ESLint configuration for code quality
 
-## React Compiler
+## Scripts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `npm run dev` - Start the development server
+- `npm run build` - Build the production bundle
+- `npm run lint` - Run ESLint checks
+- `npm run preview` - Preview the production build locally
 
-## Expanding the ESLint configuration
+## Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+cd Cafe-Dashboard
+npm install
+npm run dev
+```
+
+## Project Structure
+
+- `src/` - React source code
+- `public/` - Static assets
+- `vite.config.js` - Vite configuration
+- `package.json` - Project dependencies and scripts
+
+## Notes
+
+This project is part of the `ui-component-library` workspace.
