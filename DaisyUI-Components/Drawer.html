@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="p-10">
+    <div class="drawer">
+      <input type="checkbox" id="drawer1" class="drawer-toggle" />
+      <div class="drawer-content">
+        <label for="drawer1" class="btn btn-secondary">☰ Menu</label>
+      </div>
+      <div class="drawer-side">
+        <label for="drawer1" class="drawer-overlay"></label>
+        <ul class="menu bg-base-200 min-h-full w-80 p-4">
+          <li><a>Dashboard</a></li>
+
+          <li><a>Orders</a></li>
+
+          <li><a>Products</a></li>
+
+          <li><a>Customers</a></li>
+          <li><a>Settings</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
